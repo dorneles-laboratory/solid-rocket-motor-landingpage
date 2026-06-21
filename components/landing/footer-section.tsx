@@ -8,7 +8,7 @@ const footerLinks = {
     { name: "Funcionalidades", href: "#features" },
     { name: "Fluxo de trabalho", href: "#how-it-works" },
     { name: "Análise termo-balística", href: "#docs" },
-    { name: "Baixar", href: "#" },
+    { name: "Baixar", href: "https://github.com/dorneles-laboratory/solid-rocket-motor-simulator/releases/download/Production/SRM_0.2.0_x64-setup.exe" },
   ],
   Documentação: [
     { name: "Arquitetura local", href: "#docs" },
@@ -42,8 +42,15 @@ export function FooterSection() {
           </div>
           <div className="flex flex-wrap gap-4">
             <Button className="bg-[#ffa500] hover:bg-[#ff9100] text-black rounded-full gap-2">
-              <Download className="w-4 h-4" />
-              Baixar v0.1.10
+              <a
+                href="https://github.com/dorneles-laboratory/solid-rocket-motor-simulator/releases/download/Production/SRM_0.2.0_x64-setup.exe"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-2 text-sm sm:text-base"
+              >                      
+                <Download className="w-4 h-4" />
+                Baixar v0.2.0
+              </a>
             </Button>
             <Button variant="outline" className="rounded-full border-white/20 text-white hover:bg-white/5 gap-2">
               <a
@@ -118,7 +125,7 @@ export function FooterSection() {
           <div className="flex items-center gap-4 text-sm text-white/30">
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#ffa500]" />
-              v0.1.10 disponível
+              v0.2.0 disponível
             </span>
           </div>
         </div>

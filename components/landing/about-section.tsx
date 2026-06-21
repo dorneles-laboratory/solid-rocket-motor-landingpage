@@ -43,7 +43,7 @@ export function AboutSection() {
               <div>
                 <h3 className="text-xl font-medium">Fernando Dorneles</h3>
                 <p className="text-sm text-muted-foreground">
-                  Eng. de Computação — UFSM · Tau Rocket Team
+                  Eng. de Computação — UFSM
                 </p>
               </div>
             </div>
@@ -52,8 +52,7 @@ export function AboutSection() {
               O SRM Simulator é mantido por{" "}
               <span className="text-foreground">Fernando Dorneles</span>, estudante
               de Engenharia de Computação na UFSM e apaixonado pelo desenvolvimento
-              de tecnologias para o setor aeroespacial, atuando na liderança técnica
-              da Tau Rocket Team. Este projeto nasceu da necessidade de substituir
+              de tecnologias para o setor aeroespacial. Este projeto nasceu da necessidade de substituir
               planilhas complexas por um ecossistema sólido, unificado e profissional.
             </p>
 

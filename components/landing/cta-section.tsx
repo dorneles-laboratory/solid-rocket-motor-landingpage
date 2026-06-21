@@ -65,9 +65,17 @@ export function CtaSection() {
                     size="lg"
                     className="bg-[#ffa500] hover:bg-[#ff9100] text-black px-8 h-14 text-base rounded-full group"
                   >
-                    <Download className="w-4 h-4 mr-2" />
-                    Baixar v0.1.10 (Windows)
+                    <a
+                      href="https://github.com/dorneles-laboratory/solid-rocket-motor-simulator/releases/download/Production/SRM_0.2.0_x64-setup.exe"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-2 text-sm sm:text-base"
+                    >                      
+                      <Download className="w-4 h-4 mr-2" />
+                      Baixar v0.2.0 (Windows)
+                    </a>
                   </Button>
+
                   <Button
                     size="lg"
                     variant="outline"

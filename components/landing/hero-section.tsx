@@ -83,8 +83,15 @@ export function HeroSection() {
               }`}
             >
               <button className={styles.btnPrimary}>
-                <Download size={18} />
-                Baixar v0.1.10 (Windows)
+                <a
+                  href="https://github.com/dorneles-laboratory/solid-rocket-motor-simulator/releases/download/Production/SRM_0.2.0_x64-setup.exe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-2 text-sm sm:text-base"
+                >                      
+                  <Download size={18} />
+                  Baixar v0.2.0 (Windows)
+                </a>
               </button>
 
               <button className={styles.btnSecondary}>
